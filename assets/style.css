@@ -1,0 +1,178 @@
+/* ====== Global Styles ====== */
+body {
+    background-color: #0b0c10;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ====== Header ====== */
+#header {
+    background-color: #0b0c10;
+    color: white;
+    padding: 15px 0;
+}
+
+.sitename {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #66fcf1;
+}
+
+.navmenu ul.nav {
+    gap: 20px;
+}
+
+.navmenu .nav-link {
+    color: #c5c6c7;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navmenu .nav-link.active,
+.navmenu .nav-link:hover {
+    color: #66fcf1;
+}
+
+/* ====== About Section ====== */
+#about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0c10;
+    color: white;
+}
+
+#about img {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#about h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#about h1 span:first-child {
+    color: #45a29e;
+}
+
+#about h1 span:last-child {
+    color: #66fcf1;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    color: #c5c6c7;
+}
+
+#about .social-links a {
+    color: #45a29e;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+#about .social-links a:hover {
+    color: #66fcf1;
+}
+
+#about .btn-outline-light {
+    border-color: #45a29e;
+    color: #45a29e;
+}
+
+#about .btn-outline-light:hover {
+    background-color: #45a29e;
+    color: #fff;
+}
+
+/* ====== Skills Section ====== */
+#skills {
+    background-color: #0b0c10;
+    color: white;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.progress {
+    height: 25px;
+    background-color: #1f2833;
+    border-radius: 50px;
+}
+
+.progress-bar {
+    border-radius: 50px;
+    background-color: #45a29e !important;
+    font-weight: 500;
+}
+
+/* ====== Portfolio Section ====== */
+#portfolio {
+    background-color: #0b0c10;
+    color: white;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    background-color: #1f2833;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(102, 252, 241, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .btn {
+    background-color: #45a29e;
+    color: white;
+}
+
+.card .btn:hover {
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+/* ====== Footer ====== */
+#footer {
+    background-color: #0b0c10;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer a {
+    color: #45a29e;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+#footer a:hover {
+    color: #66fcf1;
+}
